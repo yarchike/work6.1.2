@@ -108,8 +108,6 @@ public class ListViewActivity extends AppCompatActivity {
                 }
             }
         }
-        listContentAdapter = createAdapter(simpleAdapterContent);
-        list.setAdapter(listContentAdapter);
 
         super.onRestoreInstanceState(savedInstanceState);
 
